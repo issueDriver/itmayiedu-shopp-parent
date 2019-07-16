@@ -1,0 +1,8 @@
+package com.itmayiedu.dao;
+
+import com.itmayiedu.common.mybatis.BaseDao;
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface UserDao extends BaseDao {
+}
